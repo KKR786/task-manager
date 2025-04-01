@@ -114,6 +114,7 @@ body {
   z-index: 1;
   right: 0;
   top: 100%;
+  padding: 10px;
 }
 .share-dropdown-content a {
   color: black;
@@ -178,4 +179,49 @@ body {
 
 .dropdown-content a:hover {
   background-color: #ddd;
+}
+
+.share-facebook {
+  background-color: #4267b2;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 8px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.share-facebook:hover {
+  background-color: #365899;
+}
+
+.share-facebook i {
+  margin-left: 8px;
+}
+
+.share-google {
+  background: linear-gradient(135deg, #4285f4, #34a853, #fbbc05, #ea4335);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.share-google:hover {
+  opacity: 0.9;
+}
+
+.share-google i {
+  margin-left: 8px;
 }
